@@ -10,7 +10,7 @@ const App =() => {
     axios.get("https://api.currencyfreaks.com/v2.0/rates/latest",{
       params :{
         'symbols' : 'CAD,EUR,IDR,JPY,CHF,GBP',
-        'apikey' : ''
+        'apikey' : 'YOUR_APIKEY'
       }
     })
     .then(response =>{
