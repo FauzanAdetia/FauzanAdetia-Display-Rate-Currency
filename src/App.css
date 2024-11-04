@@ -26,3 +26,9 @@ td{
 table .textBottomTable{
   font-size: 13px;
 }
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 13px;
+}
