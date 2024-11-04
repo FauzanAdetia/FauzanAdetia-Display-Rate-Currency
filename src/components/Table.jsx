@@ -8,7 +8,7 @@ export default function Table(){
     axios.get("https://api.currencyfreaks.com/v2.0/rates/latest",{
       params :{
         'symbols' : 'CAD,EUR,IDR,JPY,CHF,GBP',
-        'apikey' : '9551ace2de25423d91bd78f62f07256a'
+        'apikey' : 'YOUR-APIKEY'
       }
     })
     .then(response =>{
